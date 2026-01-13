@@ -1,74 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About | K.Bartholomew</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo">K. Bartholomew</div>
 
-<header>
-    <div class="logo">K.Bartholomew</div>
+      <input type="checkbox" id="menu-toggle" style="display: none" />
+      <label for="menu-toggle" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
 
-    <nav>
+      <nav>
         <ul>
-            <li><a href="signin.html">Sign In</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class="active">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="shop.html">Shop</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="signin.html">Sign In</a></li>
         </ul>
-    </nav>
+      </nav>
 
-    <i class="fa-solid fa-cart-shopping cart-icon"></i>
-</header>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>0</span>
+      </div>
+    </header>
 
-<main>
-    <section class="about-section">
+    <main>
+      <section class="about-section">
         <div class="about-img">
-            <img src="https://static.wixstatic.com/media/11062b_b2f6c56226b348ddb5dbad6ca0df11c0~mv2.jpeg/v1/fill/w_936,h_1174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_b2f6c56226b348ddb5dbad6ca0df11c0~mv2.jpeg" alt="Cats">
+          <img
+            src="https://static.wixstatic.com/media/11062b_b2f6c56226b348ddb5dbad6ca0df11c0~mv2.jpeg/v1/fill/w_936,h_1174,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_b2f6c56226b348ddb5dbad6ca0df11c0~mv2.jpeg"
+            alt="Cats" />
         </div>
 
         <div class="about-content">
-            <h1>Our Story</h1>
+          <h1>Our Story</h1>
 
-            <h3>Quality Food</h3>
-            <p>
-                At K. Bartholomew, we are dedicated to producing a diverse range
-                of pet food that meets the nutritional needs of all pets.
-            </p>
+          <h3>Quality Food</h3>
+          <p>
+            At K. Bartholomew, we are dedicated to producing a diverse range of
+            pet food that meets the nutritional needs of all pets.
+          </p>
 
-            <h3>Our Commitment</h3>
-            <p>
-                We set ourselves apart through our unwavering commitment to
-                quality ingredients. Our vibrant and appetizing visual direction,
-                rich in reds and greens, showcases pets enjoying our food.
-            </p>
+          <h3>Our Commitment</h3>
+          <p>
+            We set ourselves apart through our unwavering commitment to quality
+            ingredients. Our vibrant and appetizing visual direction, rich in
+            reds and greens, showcases pets enjoying our food.
+          </p>
 
-            <!-- Learn more button -->
-            <a href="#more-info" class="btn">Learn More</a>
+          <!-- Learn more button -->
+          <a href="#more-info" class="btn">Learn More</a>
         </div>
-    </section>
+      </section>
 
-   
-    <section id="more-info" class="about-content" style="background:#fffcf0;">
+      <section id="more-info" class="about-content" style="background: #fffcf0">
         <h3>Why Choose Us?</h3>
         <p>
-            Our recipes are developed with veterinarians and nutritionists,
-            ensuring every meal supports a healthy and happy pet life.
+          Our recipes are developed with veterinarians and nutritionists,
+          ensuring every meal supports a healthy and happy pet life.
         </p>
-    </section>
-</main>
+      </section>
+    </main>
 
-<footer>
-    <p>© 2035 by K.Bartholomew. Powered and secured by wix.</p>
-</footer>
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h2>K. Bartholomew</h2>
+        </div>
 
+        <div>
+          <p>123-456-7890</p>
+          <p>info@mysite.com</p>
+          <br />
+          <p>500 Terry Francine St.</p>
+          <p>San Francisco, CA 94158</p>
+        </div>
 
+        <div>
+          <p>Privacy Policy</p>
+          <p>Accessibility Statement</p>
+          <p>Shipping Policy</p>
+          <p>Terms & Conditions</p>
+          <p>Refund Policy</p>
+        </div>
 
-</body>
+        <div>
+          <h4>Stay Connected</h4>
+          <p>Your Email *</p>
+          <input type="email" />
+          <label class="checkbox">
+            <input type="checkbox" /> I agree to the terms & conditions
+          </label>
+          <button>Subscribe</button>
+        </div>
+      </div>
+
+      <p class="copyright">
+        © 2035 by K. Bartholomew. Powered and secured by Wix
+      </p>
+    </footer>
+  </body>
 </html>
